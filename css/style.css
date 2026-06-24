@@ -1,0 +1,176 @@
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: 15px;
+}
+
+.outfit {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: 15px;
+} 
+
+.league-spartan {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: 15px;
+}
+
+.box-1 h1{
+  font-family: "Outfit",sans-serif;
+  color: hsl(300, 43%, 22%);
+  font-weight: 900;
+}
+.box-1 p{
+  font-family: "Outfit",sans-serif;
+  font-weight: 400;
+  color: hsl(300, 43%, 22%);
+}
+.box-1{
+  max-width: 300px;
+  width: 100%;
+  margin: 20px; /* centre le bloc entier dans la page */
+  padding: 30px;
+}
+.box-2 {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 12px;
+  max-width: 300px;
+  width: 100%;
+  margin: 0;
+  padding: 32px;
+}
+.box-2 p{
+  font-family: "Outfit",sans-serif;
+  font-weight: 400;
+  color: white;
+}
+.box-2 h3{
+ color: white;
+ font-family: "Outfit",sans-serif;
+ font-weight: 600;
+ font-size: 18px;
+ margin: 0;
+ margin-bottom: 4px;
+ margin-left: 0px;
+ padding: 10px;
+}
+.box-2 .verified{
+  font-family: "Outfit",sans-serif;
+  font-weight: 400;
+  color: hsl(333, 80%, 67%);
+  margin: 0;
+  margin-left: 0px;
+  margin-bottom: 4px;
+
+}
+.box-3{
+  max-width: 600px;
+  margin: 0;
+  margin-top: 20px;
+  margin-right: 100px;
+  padding-left: 90px;
+  width: 100%;
+  background-color:  hsl(300, 24%, 96%);
+  border-radius: 12px;
+
+}
+.stars {
+  display: flex;
+  gap: 8px;
+}
+
+.stars img {
+  width: 18px;
+  height: 18px;
+}
+
+.box-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  padding-right: 30px;
+  padding-left: 50px;
+}
+.box-3 h3{
+  font-family: "Outfit",sans-serif;
+  color:  hsl(300, 43%, 22%);
+}
+.container-1 {
+  display: flex;
+  margin-left: 50px;
+  gap: 35px;
+  align-items: flex-start;
+
+}
+.container-2{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-end; /* aligne les box-3 à droite, tailles différentes */
+  margin-top: 20px;
+  padding: 32px;
+}
+.total {
+  display: flex;
+  flex-direction: column;
+}
+
+.haut {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.container-1 .box-2:nth-child(1) {
+  margin-top: 0px;
+}
+
+.container-1 .box-2:nth-child(2) {
+  margin-top: 30px;
+}
+
+.container-1 .box-2:nth-child(3) {
+  margin-top: 60px;
+}
+ .container-2 .box-3:nth-child(1){
+  margin-right: 80px;
+ }
+ .container-2 .box-3:nth-child(2) {
+  margin-right: 40px;
+}
+
+.container-2 .box-3:nth-child(3) {
+  margin-right: 0px;
+}
+
+.bg-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1; /* passe derrière tout le contenu */
+}
+
+.bg-bottom {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+.profil {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+
